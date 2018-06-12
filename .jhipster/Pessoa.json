@@ -1,0 +1,30 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "nome",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "maxlength"
+            ],
+            "fieldValidateRulesMaxlength": "250"
+        },
+        {
+            "fieldName": "cpf",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "maxlength"
+            ],
+            "fieldValidateRulesMaxlength": "11"
+        }
+    ],
+    "changelogDate": "20180426012404",
+    "dto": "mapstruct",
+    "service": "serviceImpl",
+    "entityTableName": "pessoa",
+    "jpaMetamodelFiltering": false,
+    "pagination": "no"
+}
